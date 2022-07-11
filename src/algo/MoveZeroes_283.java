@@ -1,12 +1,12 @@
 package algo;
 
 /**
- * 移动零
+ * // 283 move-zeroes	移动零
  *
  * @author shuaishuai.wang
  * @date 2022-02-24
  **/
-public class MoveZero_283 {
+public class MoveZeroes_283 {
 
     public void moveZeroes(int[] nums) {
         int left = 0;

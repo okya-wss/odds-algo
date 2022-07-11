@@ -3,10 +3,12 @@ package algo;
 import structure.ListNode;
 
 /**
+ * // 206 reverse-linked-list	反转链表
+ *
  * @author shuaishuai.wang
  * @date 2021-03-04
  **/
-public class ReverseList {
+public class ReverseLinkedList_206 {
 
     public ListNode reverseList1(ListNode head) {
         ListNode prev = null;

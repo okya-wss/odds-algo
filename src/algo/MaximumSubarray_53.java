@@ -1,10 +1,12 @@
 package algo;
 
 /**
+ * // 53 maximum-subarray	最大子数组和
+ *
  * @author shuaishuai.wang
  * @date 2022-05-06
  **/
-public class MaxSubArray {
+public class MaximumSubarray_53 {
     public int maxSubArray(int[] nums) {
         if (nums.length == 0) {
             return 0;

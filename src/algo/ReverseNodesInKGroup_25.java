@@ -3,14 +3,14 @@ package algo;
 import structure.ListNode;
 
 /**
- * K 个一组翻转链表
+ * K 个一组翻转链表 25
  *
  * @author shuaishuai.wang
  * @date 2022-02-24
  **/
 
 
-public class ReverseKGroup_25 {
+public class ReverseNodesInKGroup_25 {
 
     public ListNode reverseKGroup(ListNode head, int k) {
         ListNode hair = new ListNode(0);

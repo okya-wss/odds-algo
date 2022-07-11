@@ -4,10 +4,12 @@ import java.util.Deque;
 import java.util.LinkedList;
 
 /**
+ * // 239 sliding-window-maximum	滑动窗口最大值
+ *
  * @author shuaishuai.wang
  * @date 2022-04-20
  **/
-public class MaxSlidingWindow_239 {
+public class SlidingWindowMaximum_239 {
     public int[] maxSlidingWindow(int[] nums, int k) {
         Deque<Integer> queue = new LinkedList<>();
         int[] res = new int[nums.length - k + 1];
@@ -20,7 +22,7 @@ public class MaxSlidingWindow_239 {
             if (queue.peekFirst() < left) {
                 queue.removeFirst();
             }
-            if (right+1 > k) {
+            if (right + 1 > k) {
                 res[left] = queue.peekFirst();
             }
         }

@@ -1,10 +1,12 @@
 package algo;
 
 /**
+ * // 915 partition-array-into-disjoint-intervals	分割数组
+ *
  * @author shuaishuai.wang
  * @date 2022-04-27
  **/
-public class PartitionDisjoint_915 {
+public class PartitionArrayIntoDisjointIntervals_915 {
     public int partitionDisjoint(int[] nums) {
         int n = nums.length;
         int max = nums[0];

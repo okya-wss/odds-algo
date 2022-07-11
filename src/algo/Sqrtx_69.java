@@ -1,12 +1,12 @@
 package algo;
 
 /**
- * x的平方根
+ * // 69 sqrtx	x 的平方根
  *
  * @author shuaishuai.wang
  * @date 2022-04-22
  **/
-public class MySqrt_69 {
+public class Sqrtx_69 {
 
     public static int mySqrt(int x) {
         int l = 0, r = x, ans = -1;

@@ -1,12 +1,12 @@
 package algo;
 
 /**
- * 最长递增子序列-300
+ * // 300 longest-increasing-subsequence	最长递增子序列
  *
  * @author shuaishuai.wang
  * @date 2022-05-06
  **/
-public class LengthOfLIS_300 {
+public class LongestIncreasingSubsequence_300 {
     public static int lengthOfLIS(int[] nums) {
         int m = nums.length;
         int[] dp = new int[m];

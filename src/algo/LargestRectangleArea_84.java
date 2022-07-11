@@ -4,6 +4,8 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 /**
+ * // 84 largest-rectangle-in-histogram	柱状图中最大的矩形
+ *
  * @author shuaishuai.wang
  * @date 2022-03-01
  **/
@@ -38,6 +40,6 @@ public class LargestRectangleArea_84 {
     }
 
     public static void main(String[] args) {
-        System.out.println(largestRectangleArea(new int[]{2,1,2}));
+        System.out.println(largestRectangleArea(new int[]{2, 1, 2}));
     }
 }

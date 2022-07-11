@@ -1,9 +1,7 @@
 package algo;
 
-/**
- * @author shuaishuai.wang
- * @date 2022-04-29
- **/
+// 322 coin-change	零钱兑换
+
 public class CoinChange_322 {
     public int coinChange(int[] coins, int amount) {
         int max = amount + 1;

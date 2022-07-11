@@ -11,7 +11,7 @@ import java.util.Queue;
  * @author shuaishuai.wang
  * @date 2022-04-18
  **/
-public class NumIslands_200 {
+public class NumberOfIslands_200 {
     private int m;
     private int n;
     private boolean[][] visit;

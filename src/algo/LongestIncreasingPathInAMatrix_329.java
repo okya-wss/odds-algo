@@ -6,10 +6,11 @@ import java.util.List;
 import java.util.Queue;
 
 /**
+ * // 329 longest-increasing-path-in-a-matrix	矩阵中的最长递增路径
  * @author shuaishuai.wang
  * @date 2022-04-20
  **/
-public class LongestIncreasingPath_329 {
+public class LongestIncreasingPathInAMatrix_329 {
 
     private int n;
     private int m;

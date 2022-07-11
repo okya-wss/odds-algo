@@ -3,11 +3,9 @@ package algo;
 import java.util.Deque;
 import java.util.LinkedList;
 
-/**
- * @author shuaishuai.wang
- * @date 2022-03-01
- **/
-public class Calculate_227 {
+// 227 basic-calculator-ii	基本计算器 II
+
+public class BasicCalculatorIi_227 {
 
     //加号 将数字压入栈 减号：将数字的相反数压入栈 乘除号：计算数字与栈顶元素，并将栈顶元素替换为计算结果
     public static int calculate(String s) {

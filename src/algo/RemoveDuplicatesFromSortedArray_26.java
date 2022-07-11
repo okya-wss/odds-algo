@@ -1,12 +1,12 @@
 package algo;
 
 /**
- * https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/
+ * // 26 remove-duplicates-from-sorted-array	删除有序数组中的重复项
  *
  * @author shuaishuai.wang
  * @date 2022-02-23
  **/
-public class RemoveDuplicates_26 {
+public class RemoveDuplicatesFromSortedArray_26 {
 
     public int removeDuplicates(int[] nums) {
         if (nums.length <= 1) {

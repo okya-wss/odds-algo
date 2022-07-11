@@ -6,7 +6,7 @@ package algo;
  * @author shuaishuai.wang
  * @date 2022-04-29
  **/
-public class UniquePathsWithObstacles_63 {
+public class UniquePathsIi_63 {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         int m = obstacleGrid.length;
         int n = obstacleGrid[0].length;

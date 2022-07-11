@@ -3,11 +3,9 @@ package algo;
 import java.util.Deque;
 import java.util.LinkedList;
 
-/**
- * @author shuaishuai.wang
- * @date 2022-03-01
- **/
-public class Calculate_224 {
+// 224 basic-calculator	基本计算器
+
+public class BasicCalculator_224 {
 
     public static int calculate(String s) {
         int res = 0;

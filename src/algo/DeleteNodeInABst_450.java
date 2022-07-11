@@ -2,13 +2,9 @@ package algo;
 
 import structure.TreeNode;
 
-/**
- * 450 删除二叉搜索树中的节点
- *
- * @author shuaishuai.wang
- * @date 2022-04-20
- **/
-public class DeleteNode_450 {
+// 450 delete-node-in-a-bst	删除二叉搜索树中的节点
+
+public class DeleteNodeInABst_450 {
     public TreeNode deleteNode(TreeNode root, int key) {
         if (root == null) {
             return null;

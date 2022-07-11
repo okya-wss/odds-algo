@@ -3,7 +3,7 @@ package algo;
 import structure.TreeNode;
 
 /**
- * 后继者 04.06
+ * 面试题 04.06 successor-lcci	后继者
  *
  * @author shuaishuai.wang
  * @date 2022-04-20

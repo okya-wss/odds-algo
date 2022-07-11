@@ -1,12 +1,12 @@
 package algo;
 
 /**
- * 排序数组中查找元素的第一个和最后一个位置
+ * 排序数组中查找元素的第一个和最后一个位置 34
  *
  * @author shuaishuai.wang
  * @date 2022-04-21
  **/
-public class SearchRange_34 {
+public class FindFirstAndLastPositionOfElementInSortedArray_34 {
     public static int[] searchRange(int[] nums, int target) {
         int left = 0;
         int right = nums.length - 1;

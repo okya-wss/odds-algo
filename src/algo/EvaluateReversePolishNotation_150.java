@@ -3,13 +3,9 @@ package algo;
 import java.util.Deque;
 import java.util.LinkedList;
 
-/**
- * 逆波兰表达式
- *
- * @author shuaishuai.wang
- * @date 2022-02-25
- **/
-public class EvalRPN_150 {
+// 150 evaluate-reverse-polish-notation	逆波兰表达式求值
+
+public class EvaluateReversePolishNotation_150 {
     public static int evalRPN(String[] tokens) {
         if (tokens.length == 1) {
             return Integer.parseInt(tokens[0]);

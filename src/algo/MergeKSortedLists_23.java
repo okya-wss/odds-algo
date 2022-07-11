@@ -8,7 +8,7 @@ import structure.ListNode;
  * @author shuaishuai.wang
  * @date 2022-04-20
  **/
-public class MergeKLists_23 {
+public class MergeKSortedLists_23 {
     public ListNode mergeKLists(ListNode[] lists) {
         return merge(lists, 0, lists.length - 1);
     }

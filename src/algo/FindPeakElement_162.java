@@ -1,9 +1,7 @@
 package algo;
 
-/**
- * @author shuaishuai.wang
- * @date 2022-04-27
- **/
+// 162 find-peak-element	寻找峰值
+
 public class FindPeakElement_162 {
     public int findPeakElement(int[] nums) {
         int left = 0;

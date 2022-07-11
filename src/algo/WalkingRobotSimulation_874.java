@@ -3,12 +3,12 @@ package algo;
 import java.util.HashSet;
 
 /**
- * https://leetcode-cn.com/problems/walking-robot-simulation/
+ * // 874 walking-robot-simulation	模拟行走机器人
  *
  * @author shuaishuai.wang
  * @date 2022-02-22
  **/
-public class RobotSim_874 {
+public class WalkingRobotSimulation_874 {
 
     public static int robotSim(int[] commands, int[][] obstacles) {
         // N 1,E 2,  s 3 , w 4

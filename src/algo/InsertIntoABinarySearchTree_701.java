@@ -3,10 +3,12 @@ package algo;
 import structure.TreeNode;
 
 /**
+ * // 701 insert-into-a-binary-search-tree	二叉搜索树中的插入操作
+ *
  * @author shuaishuai.wang
  * @date 2022-04-20
  **/
-public class InsertIntoBST_701 {
+public class InsertIntoABinarySearchTree_701 {
 
 
     public TreeNode insertIntoBST(TreeNode root, int val) {

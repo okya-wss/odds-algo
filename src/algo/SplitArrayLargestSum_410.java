@@ -6,7 +6,7 @@ package algo;
  * @author shuaishuai.wang
  * @date 2022-04-27
  **/
-public class SplitArray_410 {
+public class SplitArrayLargestSum_410 {
 
     private int[] nums;
 

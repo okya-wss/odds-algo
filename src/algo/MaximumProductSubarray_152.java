@@ -6,7 +6,7 @@ package algo;
  * @author shuaishuai.wang
  * @date 2022-05-06
  **/
-public class MaxProduct_152 {
+public class MaximumProductSubarray_152 {
     public int maxProduct(int[] nums) {
         int m = nums.length;
         int[] min = new int[m];

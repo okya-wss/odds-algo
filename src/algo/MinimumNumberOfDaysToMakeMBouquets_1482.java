@@ -6,7 +6,7 @@ package algo;
  * @author shuaishuai.wang
  * @date 2022-04-28
  **/
-public class MinDays_1482 {
+public class MinimumNumberOfDaysToMakeMBouquets_1482 {
     private int[] bloomDay;
 
     public int minDays(int[] bloomDay, int m, int k) {
