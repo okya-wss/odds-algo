@@ -1,7 +1,7 @@
 package design.state;
 
 /**
- * 状态模式
+ * 状态接口
  *
  * @author shuaishuai.wang
  * @date 2022-09-15
@@ -9,7 +9,6 @@ package design.state;
 public interface State {
 
     public void bookRoom();
-
 
     public void unsubscribeRoom();
 

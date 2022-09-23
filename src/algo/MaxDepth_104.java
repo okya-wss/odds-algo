@@ -1,5 +1,7 @@
 package algo;
 
+import structure.TreeNode;
+
 /**
  * 104 二叉树最大深度
  *

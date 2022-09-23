@@ -1,5 +1,7 @@
 package algo;
 
+import structure.TreeNode;
+
 /**
  * 236 二叉树公共祖先
  *

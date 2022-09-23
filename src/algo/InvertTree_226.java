@@ -1,5 +1,7 @@
 package algo;
 
+import structure.TreeNode;
+
 /**
  * 226 翻转二叉树
  *
