@@ -1,4 +1,4 @@
-package algo;
+package algo.dp.线性DP;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package algo;
+package algo.list;
 
 import structure.ListNode;
 
@@ -48,6 +48,31 @@ public class ReverseNodesInKGroup_25 {
             cur = nex;
         }
         return new ListNode[]{tail, head};
+    }
+
+
+    public ListNode reverseKGroupReview(ListNode head, int k) {
+        ListNode hair = new ListNode(0);
+        hair.next = head;
+        ListNode pre = hair;
+        while (head != null) {
+            ListNode tail = pre;
+            for (int i = 0; i < k; i++) {
+                tail = tail.next;
+                if (tail == null) {
+                    return hair.next;
+                }
+            }
+            ListNode nex = tail.next;
+            ListNode[] reverse = myReverse(head, tail);
+            head = reverse[0];
+            tail = reverse[1];
+            pre.next = head;
+            tail.next = nex;
+            pre = tail;
+            head = tail.next;
+        }
+        return hair.next;
     }
 }
 

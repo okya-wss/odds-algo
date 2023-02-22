@@ -1,4 +1,4 @@
-package algo;
+package algo.list;
 
 import structure.ListNode;
 
@@ -30,7 +30,9 @@ public class MergeKSortedLists_23 {
             return a != null ? a : b;
         }
         ListNode head = new ListNode(0);
-        ListNode tail = head, aPtr = a, bPtr = b;
+        ListNode tail = head;
+        ListNode aPtr = a;
+        ListNode bPtr = b;
         while (aPtr != null && bPtr != null) {
             if (aPtr.val < bPtr.val) {
                 tail.next = aPtr;
