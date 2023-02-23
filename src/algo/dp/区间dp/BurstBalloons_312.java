@@ -1,4 +1,4 @@
-package algo.dp.优化;
+package algo.dp.区间dp;
 
 /**
  * 312 burst-balloons	戳气球

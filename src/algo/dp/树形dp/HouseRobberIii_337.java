@@ -1,4 +1,4 @@
-package algo.dp.线性DP;
+package algo.dp.树形dp;
 
 import structure.TreeNode;
 

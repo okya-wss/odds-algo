@@ -24,8 +24,8 @@ public class ReverseNodesInKGroup_25 {
                     return hair.next;
                 }
             }
-            ListNode nex = tail.next;
             ListNode[] reverse = myReverse(head, tail);
+            ListNode nex = tail.next;
             head = reverse[0];
             tail = reverse[1];
             // 把子链表重新接回原链表
