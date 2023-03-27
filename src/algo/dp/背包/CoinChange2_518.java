@@ -13,7 +13,9 @@ public class CoinChange2_518 {
         int[] f = new int[amount + 1];
         Arrays.fill(f, 0);
         f[0] = 1;
+        //为防止重复计算组合次数， 外层循环硬币数组
         for (int i = 0; i < coins.length; i++) {
+            //完全背包
             for (int j = coins[i]; j <= amount; j++) {
                 f[j] = f[j] + f[j - coins[i]];
             }

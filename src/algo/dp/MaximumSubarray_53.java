@@ -1,4 +1,4 @@
-package algo;
+package algo.dp;
 
 /**
  * // 53 maximum-subarray	最大子数组和

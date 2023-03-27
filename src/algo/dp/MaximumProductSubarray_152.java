@@ -1,4 +1,4 @@
-package algo;
+package algo.dp;
 
 /**
  * 152 乘积最大子数组
