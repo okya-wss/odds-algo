@@ -1,4 +1,4 @@
-package structure;
+package algo.sort;
 
 /**
  * @author shuaishuai.wang

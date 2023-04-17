@@ -7,6 +7,22 @@ package algo.dp.背包;
  **/
 public class JumpGame_55 {
 
+
+    public boolean canJumpDp(int[] nums) {
+        int n = nums.length;
+        boolean[] dp = new boolean[n];
+        dp[0] = true;
+        for (int i = 1; i <= n; i++) {
+            for (int j = 0; j < i; j++) {
+                dp[i] = (j + nums[j] >= i) && dp[j];
+                if (dp[i]) {
+                    break;
+                }
+            }
+        }
+        return dp[n - 1];
+    }
+
     public boolean canJump(int[] nums) {
         int n = nums.length;
         int farthest = 0;
@@ -21,18 +37,5 @@ public class JumpGame_55 {
         return false;
     }
 
-    public boolean canJumpDp(int[] nums) {
-        int n = nums.length;
-        boolean[] dp = new boolean[n];
-        dp[0] = true;
-        for (int i = 1; i <= n; i++) {
-            for (int j = i - 1; j >= 0; j--) {
-                dp[i] = (j + nums[j] >= i) && dp[j];
-                if (dp[i]) {
-                    break;
-                }
-            }
-        }
-        return dp[n-1];
-    }
+
 }

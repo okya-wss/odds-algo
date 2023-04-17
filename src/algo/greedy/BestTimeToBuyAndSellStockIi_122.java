@@ -7,7 +7,18 @@ package algo.greedy;
  * @date 2023-03-15
  **/
 public class BestTimeToBuyAndSellStockIi_122 {
-    // public int maxProfit(int[] prices) {
-    //     //todo
-    // }
+    public int maxProfit(int[] prices) {
+        int len = prices.length;
+        if (len < 2) {
+            return 0;
+        }
+        int res = 0;
+        for (int i = 1; i < len; i++) {
+            int diff = prices[1] - prices[0];
+            if (diff > 0) {
+                res += diff;
+            }
+        }
+        return res;
+    }
 }
