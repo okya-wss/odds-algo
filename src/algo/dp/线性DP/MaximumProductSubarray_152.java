@@ -1,4 +1,4 @@
-package algo.dp;
+package algo.dp.线性DP;
 
 /**
  * 152 乘积最大子数组

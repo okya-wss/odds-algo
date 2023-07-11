@@ -1,4 +1,4 @@
-package algo;
+package algo.dichotomy;
 
 /**
  * 查找最小值 153

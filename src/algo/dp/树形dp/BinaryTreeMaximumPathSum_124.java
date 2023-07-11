@@ -23,6 +23,7 @@ public class BinaryTreeMaximumPathSum_124 {
         int leftSum = Math.max(pathSum(root.left), 0);
         int rightSum = Math.max(pathSum(root.right), 0);
 
+        // 本级的
         int pricePath = root.val + leftSum + rightSum;
         maxSum = Math.max(maxSum, pricePath);
         // 如果左右子节点都计算上 是无法返回给上级节点的， 一个子节点加上本身才能继续向上；

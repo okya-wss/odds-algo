@@ -1,4 +1,4 @@
-package algo;
+package algo.dichotomy;
 
 /**
  * 分割数组的最大值 410
@@ -32,12 +32,12 @@ public class SplitArrayLargestSum_410 {
     private boolean validate(int m, int mid) {
         int count = 1;
         int sum = 0;
-        for (int i = 0; i < nums.length; i++) {
-            if (sum + nums[i] <= mid ) {
-                sum = sum + nums[i];
+        for (int num : nums) {
+            if (sum + num <= mid) {
+                sum = sum + num;
             } else {
-                count ++;
-                sum = nums[i];
+                count++;
+                sum = num;
             }
         }
         return count <= m;

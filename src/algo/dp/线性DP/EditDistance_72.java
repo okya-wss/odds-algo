@@ -1,4 +1,4 @@
-package algo.dp;
+package algo.dp.线性DP;
 
 /**
  * 72 edit-distance	编辑距离

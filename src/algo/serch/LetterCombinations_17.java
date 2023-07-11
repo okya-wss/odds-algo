@@ -1,4 +1,4 @@
-package algo;
+package algo.serch;
 
 import java.util.ArrayList;
 import java.util.HashMap;

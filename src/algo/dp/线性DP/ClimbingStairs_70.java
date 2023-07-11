@@ -1,4 +1,4 @@
-package algo.dp;
+package algo.dp.线性DP;
 
 /**
  * 70 climbing-stairs	爬楼梯

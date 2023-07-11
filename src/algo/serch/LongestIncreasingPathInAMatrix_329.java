@@ -1,4 +1,4 @@
-package algo;
+package algo.serch;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -26,9 +26,9 @@ public class LongestIncreasingPathInAMatrix_329 {
             to.add(new ArrayList<>());
         }
         int[] degree = new int[n * m];
-        int[] depth = new int[n * m];
+        int[] dist = new int[n * m];
         for (int i = 0; i < n * m; i++) {
-            depth[i] = 1;
+            dist[i] = 1;
         }
         Queue<Integer> queue = new LinkedList<>();
         for (int i = 0; i < m; i++) {
@@ -53,18 +53,21 @@ public class LongestIncreasingPathInAMatrix_329 {
             int x = queue.poll();
             for (int y : to.get(x)) {
                 degree[y]--;
+                dist[y] = Math.max(dist[y], dist[x] + 1);
+                //以这个点为尾的节点 全部求出
                 if (degree[y] == 0) {
                     queue.add(y);
-                    depth[y] = depth[x] + 1;
                 }
             }
         }
         int ans = 0;
         for (int i = 0; i < degree.length; i++) {
-            ans = Math.max(ans, depth[i]);
+            ans = Math.max(ans, dist[i]);
         }
         return ans;
     }
+
+
 
     int[][] matrix;
     int[][] dist;

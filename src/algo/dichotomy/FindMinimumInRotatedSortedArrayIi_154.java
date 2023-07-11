@@ -1,4 +1,4 @@
-package algo;
+package algo.dichotomy;
 
 /**
  * 寻找最小值 154

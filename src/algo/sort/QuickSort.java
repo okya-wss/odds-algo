@@ -25,10 +25,8 @@ public class QuickSort {
             while (array[right] > pivotVal) {
                 right--;
             }
-            if (left == right) {
-                break;
-            }
-            if (left < right) {
+
+            if (left <= right) {
                 int temp = array[left];
                 array[left] = array[right];
                 array[right] = temp;

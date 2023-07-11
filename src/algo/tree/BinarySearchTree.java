@@ -1,4 +1,6 @@
-package structure;
+package algo.tree;
+
+import structure.TreeNode;
 
 import java.util.Arrays;
 import java.util.List;

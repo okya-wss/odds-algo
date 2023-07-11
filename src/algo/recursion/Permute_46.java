@@ -1,4 +1,4 @@
-package algo;
+package algo.recursion;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;
@@ -6,7 +6,7 @@ import java.util.Deque;
 import java.util.List;
 
 /**
- * 46全排列
+ * 46全排列 及 47题
  *
  * @author shuaishuai.wang
  * @date 2022-03-09
@@ -29,6 +29,9 @@ public class Permute_46 {
             return;
         }
         for (int i = 0; i < nums.length; i++) {
+            if (i > 0 && nums[i] == nums[i-1] && used[i-1]) {
+                continue;
+            }
             if (!used[i]) {
                 chosen.push(nums[i]);
                 used[i] = true;

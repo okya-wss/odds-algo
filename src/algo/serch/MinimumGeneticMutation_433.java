@@ -1,4 +1,4 @@
-package algo;
+package algo.serch;
 
 import java.util.HashSet;
 import java.util.LinkedList;
@@ -6,12 +6,11 @@ import java.util.Queue;
 import java.util.Set;
 
 /**
- * 433 最小基因变化
- *
+ * // 433 minimum-genetic-mutation	最小基因变化
  * @author shuaishuai.wang
- * @date 2022-04-19
+ * @date 2022-04-18
  **/
-public class MinMutation_433 {
+public class MinimumGeneticMutation_433 {
 
     public int minMutation(String start, String end, String[] bank) {
         Set<String> bankSet = new HashSet<>();

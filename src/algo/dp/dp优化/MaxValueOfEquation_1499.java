@@ -22,6 +22,7 @@ public class MaxValueOfEquation_1499 {
                 ans = Math.max(ans,
                         Math.abs(points[deque.peekFirst()][0] - points[i][0]) + points[deque.peekFirst()][1] + points[i][1]);
             }
+            // 放入队列的时机 也就是寻找 y -x 的最大值
             while (!deque.isEmpty() && points[deque.peekLast()][1] - points[deque.peekLast()][0] <= (points[i][1] - points[i][0])) {
                 deque.pollLast();
             }

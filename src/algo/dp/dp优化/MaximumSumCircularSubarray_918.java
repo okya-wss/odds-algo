@@ -37,6 +37,7 @@ public class MaximumSumCircularSubarray_918 {
             if (!q.isEmpty()) {
                 ans = Math.max(ans, ss[i] - ss[q.peekFirst()]);
             }
+            // 最大和 减去最小和， 进入队列的要求是最小和
             while (!q.isEmpty() && ss[q.peekLast()] >= ss[i]) {
                 q.pollLast();
             }

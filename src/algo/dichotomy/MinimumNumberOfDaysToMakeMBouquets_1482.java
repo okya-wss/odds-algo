@@ -1,4 +1,4 @@
-package algo;
+package algo.dichotomy;
 
 /**
  * 1482 制作m束花所需的最少天数
@@ -42,6 +42,7 @@ public class MinimumNumberOfDaysToMakeMBouquets_1482 {
                     bouquets++;
                 }
             } else {
+                //相邻
                 flowers = 0;
             }
         }

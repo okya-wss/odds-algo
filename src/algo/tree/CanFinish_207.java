@@ -1,4 +1,4 @@
-package algo;
+package algo.tree;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;

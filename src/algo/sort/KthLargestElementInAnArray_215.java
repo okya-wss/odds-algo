@@ -27,7 +27,7 @@ public class KthLargestElementInAnArray_215 {
         int i = p;
         for (int j = i; j < r; j++) {
             if (nums[j] <= pivotVal) {
-                if (i != j) {
+                if (i < j) {
                     swap(nums, i, j);
                 }
                 i++;

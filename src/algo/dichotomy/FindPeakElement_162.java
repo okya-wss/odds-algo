@@ -1,4 +1,4 @@
-package algo;
+package algo.dichotomy;
 
 // 162 find-peak-element	寻找峰值
 

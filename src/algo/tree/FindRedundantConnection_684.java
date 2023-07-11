@@ -1,4 +1,4 @@
-package algo;
+package algo.tree;
 
 /**
  * 冗余连接
@@ -30,6 +30,7 @@ public class FindRedundantConnection_684 {
             for (int j = 1; j < visited.length; j++) {
                 visited[j] = false;
             }
+            //在当前接节点出发
             dfs(x, 0);
             if (hasCycle) {
                 return edges[i];

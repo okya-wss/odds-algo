@@ -19,7 +19,8 @@ public class BurstBalloons_312 {
             nums1[i] = nums[i - 1];
         }
         f = new int[n + 2][n + 2];
-        for (int len = 1; len <= n; len++) { //区间长度
+        //区间长度 len = 1即最后戳哪个
+        for (int len = 1; len <= n; len++) {
             for (int l = 1; l <= n - len + 1; l++) {
                 int r = l + len - 1;
                 if (r > n) {
